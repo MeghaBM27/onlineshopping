@@ -3,7 +3,7 @@ const Navabr=()=>
 {
     return(
     <nav>
-        <img src="../onlineshopping/Assets/"
+       
 
     </nav>
     )
