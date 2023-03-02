@@ -9,10 +9,10 @@ const Navbar=()=>
             <select>
               
                 <option>Furniture </option>
-                <option>Furniture </option>
-                <option>Furniture </option>
-                <option>Furniture </option>
-                <option>Furniture </option>
+                <option>Dresses </option>
+                <option>Shoes</option>
+                <option>Books</option>
+                <option>Mobiles</option>
             </select>
          </li>
          </nav>
