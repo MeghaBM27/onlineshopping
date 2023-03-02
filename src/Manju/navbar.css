@@ -1,0 +1,33 @@
+.navbar-top {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  padding: 5px;
+  display: flex;
+  color: white;
+}
+#callogo {
+  margin-left: 120px;
+}
+#offerline
+{
+   margin-left: 350px;
+}
+.navbar-main
+{
+    background-color:wheat;
+    height:120px;
+    padding:5px;
+    display: flex;
+
+}
+#nav-icon
+{
+   padding:30px 0 0 100px;
+}
+.navbar-items
+{
+    display: flex;
+    list-style: none;
+    
+}

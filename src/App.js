@@ -1,33 +1,23 @@
-// import { Router,Route } from 'express';
-// import React, { Suspense } from 'react';
-// import Navbar from './Manju/navbar';
-import React from 'react';
-import OnlineShopping from '../src/Megha/navbar/nav.js';
+import React from 'react'
+import Navbar from './Manju/navbar';
 
-// const OnlineNav =React.lazy(()=>import('../src/Megha/navbar/nav')) 
-// import OnlineNav from './Megha/navbar/nav'; 
-
+// const OnlineNav =React.lazy(()=>import('../src/Megha/navbar/nav.js') )
+// const Navbar=React.lazy(()=> import('../src/Manju/navbar.js'))
 
 
 function App() {
-//  const router=[
-//     {path:'/megha', element:<OnlineNav/>}
-//   ]
+  // const path=[
+  //   {path:'/meghanav', element:<OnlineNav/>},
+  //   {path:'/manju', element: <Navbar/> }
 
-
-
+  //   ]
+    
   return (
     <div className="App">
-      {/* <Suspense> */}
-   {/* <Router> */}
-   {/* <Route path="/megha" element={<OnlineNav/>} /> */}
-   {/* <Route  path="megha"element={<React.Suspense fallback={<>...</>}> <OnlineNav />  </React.Suspense>}/>
+    <Navbar/>
    
-   </Router> */}
-   {/* </Suspense> */}
-  <OnlineShopping/>
-    {/* <Navbar /> */}
-  
+
+         
     </div>
   );
 }

@@ -5,11 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import OnlineNav from './Megha/navbar/nav';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+<<<<<<< HEAD
   
+=======
+ 
+>>>>>>> 80c86c68ec6f4687e69db543833d080f82d0340b
   </React.StrictMode>
 );
 
