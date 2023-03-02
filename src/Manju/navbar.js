@@ -1,10 +1,11 @@
-import React, { Component }  from 'react';
-const Navabr=()=>
-{
-    return(
-    <nav>
-       
+import React from 'react'
 
-    </nav>
+function Navbar() {
+    return (
+        <div>
+            sjdnkhsdf
+        </div>
     )
 }
+
+export default Navbar

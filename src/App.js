@@ -1,27 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-import React, { Component }  from 'react';
-import OnlineNav from './Megha/navbar/nav';
+// import { Router,Route } from 'express';
+// import React, { Suspense } from 'react';
+// import Navbar from './Manju/navbar';
+import React from 'react';
+import OnlineShopping from '../src/Megha/navbar/nav.js';
+
+// const OnlineNav =React.lazy(()=>import('../src/Megha/navbar/nav')) 
+// import OnlineNav from './Megha/navbar/nav'; 
+
+
 
 function App() {
+//  const router=[
+//     {path:'/megha', element:<OnlineNav/>}
+//   ]
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-     <OnlineNav/>
-      
+      {/* <Suspense> */}
+   {/* <Router> */}
+   {/* <Route path="/megha" element={<OnlineNav/>} /> */}
+   {/* <Route  path="megha"element={<React.Suspense fallback={<>...</>}> <OnlineNav />  </React.Suspense>}/>
+   
+   </Router> */}
+   {/* </Suspense> */}
+  <OnlineShopping/>
+    {/* <Navbar /> */}
+  
     </div>
   );
 }
